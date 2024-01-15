@@ -1,0 +1,4 @@
+docker exec -it pg bash;
+psql -U root;
+\c mycontacts;
+\dt

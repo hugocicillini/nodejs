@@ -1,0 +1,27 @@
+POST http://localhost:3000/videos
+Content-type: application/json
+
+{
+    "title": "Video 1",
+    "description": "Descrição Video 1",
+    "duration": 180
+}
+
+###
+
+GET  http://localhost:3000/videos?search=node
+
+###
+
+PUT http://localhost:3000/videos/31e9db79-4d1f-46cd-b7c8-a4c14defe7c3
+Content-type: application/json
+
+{
+    "title": "Video 1 - Remake",
+    "description": "Descrição Video 1 Remake",
+    "duration": 180
+}
+
+###
+
+DELETE http://localhost:3000/videos/060a7437-ff8f-419f-b3c8-bf908cf445e5
